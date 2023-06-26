@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  padding: 20px;
+}
+
+.page {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.error {
+  color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button.logout-btn {
+  background-color: #dc3545;
+}
+
+.post-btns {
+  display: flex;
+  margin-top: 10px;
+}
+
+.post-btns button {
+  margin-right: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+li h3 {
+  margin: 0;
+}
+
+li p {
+  margin: 10px 0;
+}
